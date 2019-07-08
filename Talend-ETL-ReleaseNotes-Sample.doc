@@ -1,0 +1,654 @@
+Message-ID: <1923976070.3923.1562569272845.JavaMail.svc.atlassian@WAL01APTCW02>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_3922_738643390.1562569272845"
+
+------=_Part_3922_738643390.1562569272845
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Talend Release Notes For Unity Program ETL Release 6.4.1 Drop 8<=
+/title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Talend Release Notes For Unity Program ETL Release 6.4.1 Drop 8</h1=
+>
+    <div class=3D"Section1">
+        <h3 class=3D"wiki-content view-template" id=3D"TalendReleaseNotesFo=
+rUnityProgramETLRelease6.4.1Drop8-TalendReleaseNotesForUnityProgramRelease6=
+Sprint4.1Drop8"><strong>Talend Release Notes&nbsp;</strong><strong>For&nbsp=
+;</strong><strong>Unity Program&nbsp;</strong><strong>Release 6 Sprint 4 .1=
+ Drop 8</strong></h3>
+<p><strong style=3D"color: rgb(0,0,0);font-size: 16.0px;line-height: 1.5625=
+;"><br /></strong></p>
+<p><strong style=3D"color: rgb(0,0,0);font-size: 16.0px;line-height: 1.5625=
+;">Date:07-June-2018</strong></p>
+<p><strong>Document Revisions</strong>&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Date</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Version </strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Description</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Author</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>07-June-2018</strong></p></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">Talend ETL R6.4.1 Drop8</td>
+<td class=3D"confluenceTd">Ashok Vemula</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"TalendReleaseNotesForUnityProgramETLRelease6.4.1Drop8-Releasechec=
+klist"><strong>Release checklist</strong></h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Check point</p></th>
+<th class=3D"confluenceTh"><p>Owner</p></th>
+<th class=3D"confluenceTh"><p>Completed (Y / N)</p></th>
+<th class=3D"confluenceTh"><p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"4" data-highlight-colo=
+ur=3D"grey" style=3D"text-align: center;">Application deployment</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Deploy service and test execution</td>
+<td class=3D"confluenceTd"><p>Vidyasagar Gajula</p></td>
+<td class=3D"confluenceTd"><p><span>Y/N</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"4" data-highlight-colo=
+ur=3D"grey" style=3D"text-align: center;">Generic check list</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Code Check List is available</p></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd"><p><span>Y/N</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Unit tested the code</p></td>
+<td class=3D"confluenceTd"><p>Anuhya</p></td>
+<td class=3D"confluenceTd"><p><span>Y/N</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Stable, agreed requirement (e.g. Use Cases) a=
+nd design specifications are available</p></td>
+<td class=3D"confluenceTd">Julie K</td>
+<td class=3D"confluenceTd"><p><span>Y/N</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">High Level test cases have been approved by SME =
+and secured within Quality Centre</td>
+<td class=3D"confluenceTd"><p>Swapna Priya Gambhiraopet</p></td>
+<td class=3D"confluenceTd"><p>Y/N</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Required test data from dev team - Request &a=
+mp; Response XMLs is shared with QA team.</p></td>
+<td class=3D"confluenceTd"><p>Swapna Priya Gambhiraopet</p></td>
+<td class=3D"confluenceTd"><p><span>Y/N</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Release notes document is complete and shared=
+ with QA team</p></td>
+<td class=3D"confluenceTd"><p>Vidyasagar Gajula</p></td>
+<td class=3D"confluenceTd"><p><span>Y/N</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Is the environment available?</p></td>
+<td class=3D"confluenceTd"><p>Sridhar Manne</p></td>
+<td class=3D"confluenceTd"><p><span>Y/N</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Unit testing completed and signed =
+off by development lead</td>
+<td colspan=3D"1" class=3D"confluenceTd">Sridhar Manne</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Y/N</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Unit Testing evidence attached</td=
+>
+<td colspan=3D"1" class=3D"confluenceTd">Sridhar Manne</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Y/N</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"TalendReleaseNotesForUnityProgramETLRelease6.4.1Drop8-Summary-Ste=
+psrequiredinthisdrop"><u>Summary - Steps required in this drop</u></h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col />
+<col />
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><u><strong>S.No</strong></u></td>
+<td class=3D"confluenceTd"><u><strong>Task</strong></u></td>
+<td class=3D"confluenceTd"><u><strong>Required for this drop or not? (Y/N)<=
+/strong></u></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd">Jobs needs to be deployed?</td>
+<td class=3D"confluenceTd"><span>Y</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><p>New Branch required?</p></td>
+<td class=3D"confluenceTd">N</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">3</td>
+<td colspan=3D"1" class=3D"confluenceTd">Reports required to be deployed</t=
+d>
+<td colspan=3D"1" class=3D"confluenceTd">N</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">4</td>
+<td class=3D"confluenceTd">SQL/UNIX Changes involved?</td>
+<td class=3D"confluenceTd">N</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">5</td>
+<td class=3D"confluenceTd"><p>Parameter file changes required?</p><p>Config=
+/xsd/error/csv/etc...</p></td>
+<td class=3D"confluenceTd"><p><span>N</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">6</td>
+<td colspan=3D"1" class=3D"confluenceTd">Defect Fixes?</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Y</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">7</td>
+<td colspan=3D"1" class=3D"confluenceTd">Known Issues?</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>N</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">8</td>
+<td colspan=3D"1" class=3D"confluenceTd">Unit Test Results?</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Y</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">9</td>
+<td colspan=3D"1" class=3D"confluenceTd">Miscellaneous Items, if any?</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>N</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><u><strong>Job Name</strong></u></th>
+<th class=3D"confluenceTh"><u><strong>Nexus Path</strong></u></th>
+<th class=3D"confluenceTh"><u><strong>Job Version Number</strong></u></th>
+<th class=3D"confluenceTh"><u><strong>Deploy on ESB Conductor/Job Conductor=
+</strong></u></th>
+<th colspan=3D"1" class=3D"confluenceTh"><u><strong>Type (Route, Service, G=
+eneric)</strong></u></th>
+<th colspan=3D"1" class=3D"confluenceTh"><u><strong>Context</strong></u></t=
+h>
+<th colspan=3D"1" class=3D"confluenceTh"><u><strong>Trigger Required?</stro=
+ng></u></th>
+<th colspan=3D"1" class=3D"confluenceTh"><u><strong>Frequency Of Trigger, i=
+f required</strong></u></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br /><span style=3D"color: rgb(0,=
+0,0);">Job_Oracle_FIL_OB_Master</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);"=
+>snapshots/Oracle_FIL/Outbound/Job_Oracle_FIL_OB_Master/1.8.0-SNAPSHOT/Job_=
+Oracle_FIL_OB_Master-1.8.0-SNAPSHOT.zip</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">1.8</td>
+<td colspan=3D"1" class=3D"confluenceTd">Jobconductor</td>
+<td colspan=3D"1" class=3D"confluenceTd">Job</td>
+<td colspan=3D"1" class=3D"confluenceTd">Default</td>
+<td colspan=3D"1" class=3D"confluenceTd">Y</td>
+<td colspan=3D"1" class=3D"confluenceTd">AS IS</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br /><br /></p>
+<h3 id=3D"TalendReleaseNotesForUnityProgramETLRelease6.4.1Drop8-2.Branchreq=
+uiredinthisdrop"><span style=3D"text-decoration: underline;">2. Branch requ=
+ired in this drop</span></h3>
+<p><span style=3D"text-decoration: underline;"><strong><u>Mercurial Path:</=
+u></strong></span></p>
+<p>I:\HGB IT\HGB IT Private Share\eServe Release Repository\Virtusa\Virtusa=
+\Release6Sprint4.1 ETL\Drop8\Branch</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col />
+<col />
+<col />
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><u><strong>Export Name</strong></u></td>
+<td class=3D"confluenceTd"><u><strong>Changes Involved? (Model, Container, =
+etc...)</strong></u></td>
+<td class=3D"confluenceTd"><u><strong>Comments</strong></u></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">N/A</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><u style=3D"color: rgb(0,0,0);font-size: 16.0px;">3. SQL/UNIX ch=
+anges required in this drop</u></strong></p>
+<p><u><strong><u>Mercurial Path:</u></strong></u></p>
+<p><u><span style=3D"color: rgb(0,51,102);"><strong>I:\HGB IT\HGB IT Privat=
+e Share\eServe Release Repository\Virtusa\Virtusa\Release6Sprint4.1 ETL\Dro=
+p8\DB Scripts</strong></span></u></p>
+<p><strong><br /></strong></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col />
+<col />
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><strong><u>SQL File Name</u></strong></td>
+<td class=3D"confluenceTd"><strong><u>Comments</u></strong></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br /><br /><br /></p>
+<h3 id=3D"TalendReleaseNotesForUnityProgramETLRelease6.4.1Drop8-4.Parameter=
+filesrequiredinthisdrop"><span style=3D"text-decoration: underline;">4. Par=
+ameter files required in this drop</span></h3>
+<p><span style=3D"text-decoration: underline;"><span style=3D"text-decorati=
+on: underline;">Mercurial Path:</span></span></p>
+<p><strong>I:\HGB IT\HGB IT Private Share\eServe Release Repository\Virtusa=
+\Virtusa\Release6Sprint4.1 ETL\Drop8\Parameter Files</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col />
+<col />
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><strong><u>Parameter File Name</u></strong></td>
+<td class=3D"confluenceTd"><strong><u>Comments</u></strong></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>I:\HGB IT\HGB IT Private Share\eServe Release Repository\Virtusa\Virtusa=
+\Release6Sprint4.1 ETL\Drop8\XSD</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col />
+<col />
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><strong><u>XSD Name</u></strong></td>
+<td class=3D"confluenceTd"><strong><u>Comments</u></strong></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"TalendReleaseNotesForUnityProgramETLRelease6.4.1Drop8-5.DefectFix=
+es"><span style=3D"text-decoration: underline;">5. Defect Fixes</span></h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Defect ID</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Severity</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Headline</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">16754<br /><br /></td>
+<td class=3D"confluenceTd">1-Urgent</td>
+<td class=3D"confluenceTd">CORE_Merge2_PFT_Cancellation-Change of Holding U=
+pdate Asset and New Sale-Change in Holding Update Asset transactions occure=
+d with error desc as TransactionType:exceed max length-Character found or L=
+ength mismatch in STAGING.stg_ledger_policy_header table</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"TalendReleaseNotesForUnityProgramETLRelease6.4.1Drop8-6.KnownIssu=
+es"><span style=3D"text-decoration: underline;">6. Known Issues</span></h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Issue ID</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Severity</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Headline</strong></p></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"TalendReleaseNotesForUnityProgramETLRelease6.4.1Drop8-7.UnitTestR=
+esults"><span style=3D"text-decoration: underline;">7. Unit Test Results</s=
+pan></h3>
+<p><span style=3D"text-decoration: underline;">Mercurial Path:</span></p>
+<p>I:\HGB IT\HGB IT Private Share\eServe Release Repository\Virtusa\Virtusa=
+\Release6Sprint4.1 ETL\Drop8\Unit Test Results</p>
+<p>&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>File Name</p></th>
+<th colspan=3D"1" class=3D"confluenceTh"><span style=3D"color: rgb(0,0,0);"=
+><span style=3D"color: rgb(0,0,0);">C</span>omments</span></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">QC16754_Unit testing Results_Oracl=
+e_Interface.xlsx</td>
+<td colspan=3D"1" class=3D"confluenceTd">Output files attached in excel</td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><span style=3D"color: rgb(0,0,0);">8. Miscellaneous Items</span></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>S.No</p></th>
+<th class=3D"confluenceTh">Task</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"TalendReleaseNotesForUnityProgramETLRelease6.4.1Drop8-9.Prerequis=
+ites"><span style=3D"text-decoration: underline;">9. Prerequisites</span></=
+h3>
+<p><u><strong>Deployment Support Contact Details</strong></u></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Name</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Email</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Role</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Telephone</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Vidyasagar Gajula</p></td>
+<td class=3D"confluenceTd"><p><a href=3D"mailto:vidyasagarg@virtusapolaris.=
+com" class=3D"external-link" rel=3D"nofollow">vidyasagarg@virtusapolaris.co=
+m</a></p></td>
+<td class=3D"confluenceTd"><p>Release manager</p></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Manoj Kumar Bollimuntha</td>
+<td colspan=3D"1" class=3D"confluenceTd">manojkb@virtusapolaris.com</td>
+<td colspan=3D"1" class=3D"confluenceTd">Tech Lead</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<div>
+<span style=3D"white-space: pre-wrap;"><br /></span>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_3922_738643390.1562569272845--
