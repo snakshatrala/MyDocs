@@ -1,0 +1,899 @@
+Message-ID: <709426744.3921.1562569157823.JavaMail.svc.atlassian@WAL01APTCW02>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_3920_234633748.1562569157823"
+
+------=_Part_3920_234633748.1562569157823
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>FT Release 6 Sprint 4.1 Drop 1.2 CR321 and EUT Fixes Release not=
+es</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>FT Release 6 Sprint 4.1 Drop 1.2 CR321 and EUT Fixes Release notes<=
+/h1>
+    <div class=3D"Section1">
+        <p>&nbsp;</p>
+<p><strong style=3D"color: rgb(0,0,0);line-height: 1.5;font-size: 20.0px;">=
+Pega Release Notes&nbsp;</strong><strong style=3D"color: rgb(0,0,0);line-he=
+ight: 1.5;font-size: 20.0px;">For&nbsp;</strong><strong style=3D"color: rgb=
+(0,0,0);line-height: 1.5;font-size: 20.0px;">Unity Program&nbsp;</strong><s=
+trong style=3D"color: rgb(0,0,0);line-height: 1.5;font-size: 20.0px;">Relea=
+se 6 Sprint &nbsp;4.1</strong></p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Drop1.2"><=
+strong>Drop 1.2</strong></h2>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-RulesetVer=
+sion:01-75-19"><strong>Ruleset Version: &nbsp;01-75-19</strong></h2>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-GrpProdPro=
+dUKRequired?(Y/N):"><strong style=3D"line-height: 1.5;">GrpProdProdUK Requi=
+red?(Y/N):</strong></h3>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Date:18-Ju=
+n-2017"><strong style=3D"line-height: 1.5625;font-size: 16.0px;">Date: 18-J=
+un-2017</strong></h2>
+<p><strong><br /></strong></p>
+<p><strong>Document Revisions</strong>&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Date</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Version</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Description</strong></p></td>
+<td class=3D"confluenceTd"><strong>Comment</strong></td>
+<td class=3D"confluenceTd"><p><strong>Author</strong></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">18-Jun-2017</td>
+<td colspan=3D"1" class=3D"confluenceTd">01-75-19</td>
+<td colspan=3D"1" class=3D"confluenceTd">CR321 &amp;&amp; EUT Fixes</td>
+<td colspan=3D"1" class=3D"confluenceTd">R6 Sprint 4.1 Drop 1.2</td>
+<td colspan=3D"1" class=3D"confluenceTd">VidyaSagar</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Releaseche=
+cklist"><br class=3D"atl-forced-newline" /><strong>Release checklist</stron=
+g></h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Check point</p></th>
+<th class=3D"confluenceTh"><p>Owner</p></th>
+<th class=3D"confluenceTh"><p>Completed (Y / N)</p></th>
+<th class=3D"confluenceTh"><p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Pega Rules are peer reviewed and unit tested.=
+ All high and critical unit testing defects are fixed, and exit criteria fo=
+r unit testing is satisfied</p></td>
+<td class=3D"confluenceTd"><p>Sachin Kumar Yadav</p></td>
+<td class=3D"confluenceTd"><p>Y/N</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Stable, agreed requirement (e.g. Use Cases) a=
+nd design specifications are available</p></td>
+<td class=3D"confluenceTd"><p>Mallissa Baldwin</p></td>
+<td class=3D"confluenceTd"><p>Y/N&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Function test cases have been approved by SME=
+ and Change agreed to &quot;approved by SME&quot; and secured within Qualit=
+y Centre</p></td>
+<td class=3D"confluenceTd"><p>Mallissa Baldwin</p></td>
+<td class=3D"confluenceTd"><p>Y/N&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Required test data is set up and available.</=
+p></td>
+<td class=3D"confluenceTd"><p>Mallissa Baldwin</p></td>
+<td class=3D"confluenceTd"><p>Y/N&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Release notes document is complete and shared=
+ with QA team</p></td>
+<td class=3D"confluenceTd"><p>Vidya Sagar</p></td>
+<td class=3D"confluenceTd"><p><span>Y/N&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Unix Activities</p></td>
+<td class=3D"confluenceTd"><p>Bobby Khatkar</p></td>
+<td class=3D"confluenceTd"><p><span>Y/N&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>DB Activities</p></td>
+<td class=3D"confluenceTd"><p>Backup FT DB</p></td>
+<td class=3D"confluenceTd"><span>Y/N&nbsp;</span></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Are all rules checked in?</p></td>
+<td class=3D"confluenceTd"><p><span>Vidya Sagar</span></p></td>
+<td class=3D"confluenceTd"><p><span>Y/N&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Is the environment available?</p></td>
+<td class=3D"confluenceTd"><p><span>Vidya Sagar</span></p></td>
+<td class=3D"confluenceTd"><p>Y/N</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Unit testing completed and signed off by develop=
+ment lead</td>
+<td class=3D"confluenceTd"><p><span>Vidya Sagar</span></p></td>
+<td class=3D"confluenceTd">Y/N</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Unit Testing evidence attached</td>
+<td class=3D"confluenceTd"><p><span>Vidya Sagar</span></p></td>
+<td class=3D"confluenceTd">Y/N</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Guardrail Warnings report signed offed by LSA=
+</p></td>
+<td class=3D"confluenceTd">Sachin Yadav</td>
+<td class=3D"confluenceTd">Y/N</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Please DONOT include any Post Deployment Acti=
+vities Here. Use - &quot;Steps to Execute&quot; section below</p></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-ReleaseOve=
+rview:">Release Overview:</h3>
+<p>&nbsp;</p>
+<p>The document is strictly for HomeServe use only. The document shall not =
+be shared with any external party other than the client concerned. The docu=
+ment should always be kept securely and employees shall use reasonable care=
+ protecting the document from unauthorized use or disclosure to a third par=
+ty. This category also covers client intellectual property where Virtusa ha=
+s a non-disclosure agreement with the client.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><br /></strong></p>
+<h4 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Distributi=
+onforDocumentReview"><strong>Distribution for</strong>&nbsp;<strong>Documen=
+t Review</strong></h4>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Sr. No.</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Stakeholders</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>HomeServe/Virtusa</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Organization Role</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>Andy Holland</p></td>
+<td class=3D"confluenceTd"><p><span>HomeServe</span></p></td>
+<td class=3D"confluenceTd"><p>Pega Stream Manager</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2</p></td>
+<td class=3D"confluenceTd"><p>Mallissa Baldwin</p></td>
+<td class=3D"confluenceTd"><p>Virtusa</p></td>
+<td class=3D"confluenceTd"><p>Test Manager</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>3</p></td>
+<td class=3D"confluenceTd"><p>Bobby Khatkar</p></td>
+<td class=3D"confluenceTd"><p>HomeServe</p></td>
+<td class=3D"confluenceTd"><p>Environment Manager</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>4</p></td>
+<td class=3D"confluenceTd"><p>Arunnirmal Chinnadurai</p></td>
+<td class=3D"confluenceTd"><p><span>HomeServe</span></p></td>
+<td class=3D"confluenceTd"><p>Release Manager</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>5</p></td>
+<td class=3D"confluenceTd"><p>Lucy Nixon</p></td>
+<td class=3D"confluenceTd"><p>HomeServe</p></td>
+<td class=3D"confluenceTd"><p>Pega Stream Manager</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>6</p></td>
+<td class=3D"confluenceTd"><p>Graham M</p></td>
+<td class=3D"confluenceTd"><p>HomeServe</p></td>
+<td class=3D"confluenceTd"><p>Program Manager</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>7</p></td>
+<td class=3D"confluenceTd"><p>Saurabh Agrawal</p></td>
+<td class=3D"confluenceTd"><p>Virtusa</p></td>
+<td class=3D"confluenceTd"><p>Pega Offshore Manager</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span style=3D"color: rgb(0,0,0);"><br /></span></p>
+<h4 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-RelatedDoc=
+uments">Related Documents</h4>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Name</p></th>
+<th class=3D"confluenceTh"><p>Location</p></th>
+<th class=3D"confluenceTh"><p>Document</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-BuildConte=
+nt">Build Content</h3>
+<h4 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-ProductCom=
+ponents">Product Components</h4>
+<p>&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Product File</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Contents</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><span style=3D"color: rgb(0,0,0);line-height: 1.4285;">Instances require=
+d in this build</span><span style=3D"color: rgb(51,51,51);">&nbsp;</span></=
+p>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-InProducti=
+on"><span style=3D"color: rgb(51,51,51);">In Production</span></h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">S.No</th>
+<th class=3D"confluenceTh"><strong>Instance</strong></th>
+<th class=3D"confluenceTh"><strong>Application for the instance (Grp/SS/SSU=
+K/Mkt/MktUK)</strong></th>
+<th class=3D"confluenceTh"><span style=3D"color: rgb(0,0,0);">Product Name =
+(To be updated by Deployment team)</span></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br /><br /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-NonProduct=
+ion">Non Production</h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">S.No</th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<p><strong>Instance</strong></p>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<p><strong>Application for the instance (Grp/SS/SSUK/Mkt/MktUK)</strong></p=
+>
+</div></th>
+<th class=3D"confluenceTh">Product Name (To be updated by Deployment team)<=
+/th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Stepstoexe=
+cute:">Steps to execute:</h2>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<p><strong>S.No.</strong></p>
+</div></th>
+<th class=3D"confluenceTh">Instructions</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br /><br /></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br /><br /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-GuardrailW=
+arnings">Guardrail Warnings</h2>
+<p>I:\HGB IT\HGB IT Private Share\eServe Release Repository\Virtusa\Virtusa=
+\Release6Sprint4.1\Drop1.2\Guardrail Report</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+File Name
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+Content
+</div>
+</div></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-DatabaseCo=
+mponents">Database Components</h2>
+<p>I:\HGB IT\HGB IT Private Share\eServe Release Repository\Virtusa\Virtusa=
+\Release6Sprint4.1\Drop1.2\SQL</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Oracle DDL scripts</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Contents</strong></p></th>
+<th class=3D"confluenceTh">Notes</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br /><br /></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br /><br /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Unittestre=
+sults"><span style=3D"color: rgb(0,0,0);">Unit test results</span></h3>
+<p>I:\HGB IT\HGB IT Private Share\eServe Release Repository\Virtusa\Virtusa=
+\Release6Sprint4.1\Drop1.2\Unit Test Results</p>
+<p>&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+File Name
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+Content
+</div></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style=3D"color: rgb(0,0,0);">Miscellaneous Components</span></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Component</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Contents</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Functional=
+itiesIncluded">Functionalities Included</h2>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Functional=
+ityDetail">Functionality Detail</h3>
+<p>Following use cases are delivered as part of this build:</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<p><strong>Use Case</strong></p>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<p><strong>Functionality</strong></p>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+&nbsp;
+<span style=3D"color: rgb(0,0,0);">Dependencies/Functionalities not deliver=
+ed in this drop</span>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+&nbsp;
+</div></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-ChangeRequ=
+ests">Change Requests</h3>
+<p>The following functionality as defined in the Change Requests are includ=
+ed:</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Change Request</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Functionality</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Notes</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><br /><br /></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br /><br /></p>
+<p>&nbsp;</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-DefectsFix=
+"><strong><strong><strong><strong><strong><strong><strong><strong>Defect</s=
+trong></strong></strong></strong></strong></strong></strong>s Fix</strong><=
+/h2>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Issue IUD</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Severity</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Headline</strong></p></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br /><br /></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br /><br /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong style=3D"line-height: 1.4285;"><span>Known</span> Issues</strong=
+></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Issue IUD</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Severity</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Headline</strong></p></th>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong style=3D"line-height: 1.4285;"><span style=3D"color: rgb(0,0,0);=
+">Business Reference Data</span></strong></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Business Reference Data</strong></p><=
+/td>
+<td class=3D"confluenceTd"><p><strong>Data Table</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h1 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-PRPCBaseIn=
+stallation">PRPC Base Installation</h1>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Component</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Contents</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><br class=3D"atl-forced-newline" />The Following Maintenance Levels (MLs=
+) has been installed on the target environment:</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>ML</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Description</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Releasedro=
+pDeploymentInstructions">Release drop Deployment Instructions</h1>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Overview">=
+Overview</h2>
+<ul>
+<li>Check in the rules and lock the Rulesets</li>
+<li>Extract the products from the dev environment</li>
+<li>Create tables in the Pega FT environment</li>
+<li>Import the products in the FT environment</li>
+<li>Clear Pega cache and Restart FT Pega environment</li>
+<li>Smoke Testing</li>
+</ul>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Installati=
+onProducts">Installation Products</h2>
+<ol>
+<li>HomeServe Group Enterprise Class Structures</li>
+<li>CSS =E2=80=93 CSS Base product and UK specific base</li>
+<li>PPM =E2=80=93 PPM Base product and UK specific base</li>
+<li>Authorization and Security for users and user groups</li>
+<li>Organization import=E2=80=93 Users, Organization Units, Work Baskets ca=
+n be imported for the UNITY Sales, Service and Marketing organization struc=
+ture.</li>
+<li>Operator IDs</li>
+</ol>
+<p>&nbsp;</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Applicatio=
+nServerinstructions">Application Server instructions</h2>
+<p>Restart application server after product import.</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Ruleimport=
+instructions">Rule import instructions</h2>
+<p>Open Developer Portal (login in as Administrator), Pega Button -&gt; App=
+lication -&gt; Import and Export -&gt; Import. Import the files listed in t=
+able 2.1 in the order listed.</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Datarelate=
+dinstructions">Data related instructions</h2>
+<p>N/A</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Specificat=
+ionaboutMaintenanceLevels(MLs)">Specification about Maintenance Levels (MLs=
+)</h2>
+<p>N/A</p>
+<h2 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-Restartapp=
+lication">Restart application</h2>
+<p>N/A</p>
+<h1 id=3D"FTRelease6Sprint4.1Drop1.2CR321andEUTFixesReleasenotes-SmokeTest"=
+>Smoke Test</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div>
+<span style=3D"color: rgb(0,0,0);font-family: Arial , FreeSans , Helvetica =
+, sans-serif;font-size: 13.0px;"><br /></span>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_3920_234633748.1562569157823--
